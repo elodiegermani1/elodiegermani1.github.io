@@ -1,0 +1,239 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:300,300i,400,400i,700,700i');
+html {
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto Condensed', sans-serif
+}
+
+body {
+    padding: 0;
+    margin: 0 auto;
+    max-width: 1200px;
+    background-color: white;
+    border-right: 1px dashed #169297;
+    height: 100%;
+    overflow-y:scroll;
+}
+
+a {
+    color: #d2ccec
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    background-color: #169297;
+}
+
+#navigation {
+    background-color: #169297;
+    position: absolute;
+    top: 0;
+    width: 260px;
+    margin: 0;
+    color: #FFFFFF;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+}
+
+#navigation p {
+    margin-bottom: 2px;
+    margin-top: 0
+}
+
+#navigation p.lower {
+    margin-top: 10px
+}
+
+#navigation p.link {
+    margin-top: 15px
+}
+
+#navigation img.external {
+    width: 20px;
+    margin-left: 5px;
+    margin-right: 5px
+}
+
+#navigation h1 {
+    margin-bottom: 0
+}
+
+#navigation #title {
+    margin-top: 0
+}
+
+#navigation #job {
+    margin-top: 40px;
+    border: 1px dashed;
+    padding: 8px 0
+}
+
+#contact {
+    margin-top: 60px
+}
+
+#language {
+    width: 22%;
+    margin: 3% auto 15% auto
+}
+
+#language div a {
+    display: block;
+    width: 22px;
+    height: 14px
+}
+
+#language #french {
+    background: url("/images/flag-icons-border.png") 284px 295px;
+    float: right
+}
+
+#language #english {
+    background: url("/images/flag-icons-border.png") 188px 295px;
+    float: left
+}
+
+#profile {
+    margin: 30px auto 20px auto;
+    width: 200px;
+    height: 200px
+}
+
+#profile img {
+    width: 200px;
+    border-radius: 50%;
+    border: 2px solid
+}
+
+#content {
+    margin-left: 300px;
+    padding: 5px 15px;
+    background-color: white;
+}
+
+#content p {
+    margin: 0
+}
+
+#content ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0
+}
+
+#content li {
+    margin-bottom: 20px
+}
+
+#content h2 {
+    margin-top: 35px;
+    color: #d2ccec;
+    text-transform: uppercase
+}
+
+#software {
+    padding-bottom: 50px
+}
+
+h2#first {
+    margin-top: 0;
+    padding-top: 25px
+}
+
+.strong {
+    font-weight: 700;
+    color: #169297
+}
+
+.italic {
+    font-weight: 300;
+    font-style: italic
+}
+
+.upper {
+    text-transform: uppercase
+}
+
+.additional-text {
+    color: #6e6e6e
+}
+
+.comp{
+    display:flex;
+    flex-flow: row wrap;
+    margin-bottom: 10px;
+}
+.comp p{
+    flex: 0 0 40%;
+}
+.conteneur-barre{
+    flex: 0 0 60%;
+    border-radius: 5px;
+    background-color: grey;
+    border-bottom: 1px ridge grey;
+}
+.barre{
+    display: block;
+    height: 100%;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+.c80{
+    width: 80%;
+    background-color: #8B8;
+}
+.c50{
+    width: 60%;
+    background-color: #cc0;
+}
+
+.c100{
+    width: 100%;
+    background-color: #4B8;
+    border-radius: 5px;
+}
+.comp2{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+.conteneur-barre2{
+    flex: 0 0 100%;
+    height: 0.5em;
+    margin-bottom: 0.25em;
+    border-radius: 5px;
+    background-color: grey;
+}
+
+.vertical-menu {
+  width: 260px; /* Set a width if you like */
+}
+
+.vertical-menu a {
+  background-color: white; /* Lila background color */
+  color: #169297; /* Black text color */
+  font-weight: bold;
+  display: block; /* Make the links appear below each other */
+  border-radius: 10px;
+  padding: 12px; /* Add some padding */
+  text-decoration: none; /* Remove underline from links */
+  border-width:1px; 
+  border-style:solid; 
+  border-color:#A1D3D5;
+}
+
+.vertical-menu a:hover {
+  background-color: #ccc; /* Dark grey background on mouse-over */
+}
+
+.vertical-menu a.active {
+  background-color: #A1D3D5; /* Add a green color to the "active/current" link */
+  color: white;
+}
+
+.scroller{
+    overflow-y:scroll;
+}
